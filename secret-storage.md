@@ -5,8 +5,8 @@ Threat modeling has shown us a common vulnerability are the secrets
 If these are in readily accessible memory on the system, many exploits
 can make these accessible.
 
-[Normal](normal.md)
-[PSK](psk.md)
+- [Normal](normal.md)
+- [PSK](psk.md)
 
 ## The problem
 
