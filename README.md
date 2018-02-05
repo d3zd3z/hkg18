@@ -1,4 +1,4 @@
-# HGK 18
+# HKG 18
 
 These are my information on presentations for HKG 18.  The repository
 can be made public after the presentations are approved.
