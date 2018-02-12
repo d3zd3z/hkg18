@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="72 62 1765 963" width="1765pt" height="963pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2018-02-10 00:01:48 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica" font-size="32" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica" font-size="64" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="36" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="1920" height="1080"/>
+    <g>
+      <title>Layer 1</title>
+      <path d="M 73 154 L 1564 154 L 1564 529 L 73 529 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="1,4"/>
+      <path d="M 73 615 L 1564 615 L 1564 1024 L 73 1024 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="1,4"/>
+      <rect x="725" y="366" width="180" height="82" fill="#c0ffff"/>
+      <rect x="725" y="366" width="180" height="82" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(730 369)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="1.4453125" y="31" textLength="176">Asymmetric </tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="37.867188" y="69" textLength="94.26562">Cipher</tspan>
+      </text>
+      <rect x="725" y="448" width="180" height="35" fill="#c0ffff"/>
+      <rect x="725" y="448" width="180" height="35" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(730 446.5)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="0" y="31" textLength="21.34375">E</tspan>
+      </text>
+      <rect x="725" y="483" width="180" height="35" fill="#c0ffff"/>
+      <rect x="725" y="483" width="180" height="35" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(730 481.5)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="0" y="31" textLength="23.109375">D</tspan>
+      </text>
+      <path d="M 268 240.2406 C 268 218.07378 265.9299 215.3313 250.8084 193.3938 L 250.64865 193.16682 C 235.44727 171 235.28916 171 219.68843 171 C 198.9157 171 105 171 105 171 L 105 405 L 268 405 L 268 240.2406 Z" fill="white"/>
+      <path d="M 268 240.2406 C 268 218.07378 265.9299 215.3313 250.8084 193.3938 L 250.64865 193.16682 C 235.44727 171 235.28916 171 219.68843 171 C 198.9157 171 105 171 105 171 L 105 405 L 268 405 L 268 240.2406 Z M 268 239.09868 C 268 218.07378 267.84026 218.07378 235.28916 218.07378 L 235.28916 218.07378 C 235.28916 171.22932 235.28916 171 220.6436 171" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(110 212)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="15.132812" y="31" textLength="122.73438">Plaintext</tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="31.148438" y="69" textLength="99.59375">Lorem </tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="33.820312" y="107" textLength="94.25">ipsum </tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="38.265625" y="145" textLength="76.46875">Dolor</tspan>
+      </text>
+      <path d="M 219 640.5 L 373 640.5 C 391.216 640.5 406 653.268 406 669 C 406 684.732 391.216 697.5 373 697.5 L 219 697.5 C 200.784 697.5 186 684.732 186 669 C 186 653.268 200.784 640.5 219 640.5" fill="#c0c0ff"/>
+      <path d="M 219 640.5 L 373 640.5 C 391.216 640.5 406 653.268 406 669 C 406 684.732 391.216 697.5 373 697.5 L 219 697.5 C 200.784 697.5 186 684.732 186 669 C 186 653.268 200.784 640.5 219 640.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(213 650)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="7.40625" y="31" textLength="151.1875">Public Key</tspan>
+      </text>
+      <line x1="268.5" y1="288" x2="293.6" y2="288" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(511.5 67)" fill="black">
+        <tspan font-family="Helvetica" font-size="64" font-weight="500" x=".296875" y="62" textLength="896.4062">Digital Signature with RSA/PSS</tspan>
+      </text>
+      <path d="M 345 413.5 L 499 413.5 C 517.216 413.5 532 426.268 532 442 C 532 457.732 517.216 470.5 499 470.5 L 345 470.5 C 326.784 470.5 312 457.732 312 442 C 312 426.268 326.784 413.5 345 413.5" fill="#c0c0ff"/>
+      <path d="M 345 413.5 L 499 413.5 C 517.216 413.5 532 426.268 532 442 C 532 457.732 517.216 470.5 499 470.5 L 345 470.5 C 326.784 470.5 312 457.732 312 442 C 312 426.268 326.784 413.5 345 413.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(339 423)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="1.1875" y="31" textLength="163.625">Private Key</tspan>
+      </text>
+      <rect x="307" y="254.625" width="230" height="66.75" fill="#ffffc0"/>
+      <rect x="307" y="254.625" width="230" height="66.75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(312 269)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" fill="black" x="6.8359375" y="31" textLength="206.32812">Hash Function</tspan>
+      </text>
+      <path d="M 623.8 261.5 L 879 261.5 L 815.2 314.5 L 560 314.5 Z" fill="#ffc0c0"/>
+      <path d="M 623.8 261.5 L 879 261.5 L 815.2 314.5 L 560 314.5 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(628.8 269)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" fill="black" x="4.4109375" y="31" textLength="172.57812">3618550c…</tspan>
+      </text>
+      <line x1="537.5" y1="288" x2="578.2175" y2="288" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="929" y="254.625" width="230" height="66.75" fill="#ffffc0"/>
+      <rect x="929" y="254.625" width="230" height="66.75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(934 269)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="77.984375" y="31" textLength="64.03125">PSS</tspan>
+      </text>
+      <line x1="847.8825" y1="288" x2="915.6" y2="288" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1280.3 261.5 L 1535.5 261.5 L 1471.7 314.5 L 1216.5 314.5 Z" fill="#ffc0ff"/>
+      <path d="M 1280.3 261.5 L 1535.5 261.5 L 1471.7 314.5 L 1216.5 314.5 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(1285.3 269)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="31.996875" y="31" textLength="117.40625">plain sig</tspan>
+      </text>
+      <line x1="1248.7143" y1="315" x2="918.1192" y2="385.12623" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 462.2641 471 C 479.13804 477.33085 503.0686 483.6396 537 488.6905 C 590.6342 496.6742 657.1062 499.7065 711.6014 500.7052" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1580.8 534 L 1836 534 L 1772.2 587 L 1517 587 Z" fill="#c0ffc0"/>
+      <path d="M 1580.8 534 L 1836 534 L 1772.2 587 L 1517 587 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(1585.8 541.5)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="24.879688" y="31" textLength="131.64062">signature</tspan>
+      </text>
+      <line x1="1159.5" y1="288" x2="1234.7175" y2="288" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 268 854.9906 C 268 832.8238 265.9299 830.0813 250.8084 808.1438 L 250.64865 807.9168 C 235.44727 785.75 235.28916 785.75 219.68843 785.75 C 198.9157 785.75 105 785.75 105 785.75 L 105 1019.75 L 268 1019.75 L 268 854.9906 Z" fill="white"/>
+      <path d="M 268 854.9906 C 268 832.8238 265.9299 830.0813 250.8084 808.1438 L 250.64865 807.9168 C 235.44727 785.75 235.28916 785.75 219.68843 785.75 C 198.9157 785.75 105 785.75 105 785.75 L 105 1019.75 L 268 1019.75 L 268 854.9906 Z M 268 853.8487 C 268 832.8238 267.84026 832.8238 235.28916 832.8238 L 235.28916 832.8238 C 235.28916 785.9793 235.28916 785.75 220.6436 785.75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(110 826.75)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="15.132812" y="31" textLength="122.73438">Plaintext</tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="31.148438" y="69" textLength="99.59375">Lorem </tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="33.820312" y="107" textLength="94.25">ipsum </tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="38.265625" y="145" textLength="76.46875">Dolor</tspan>
+      </text>
+      <rect x="307" y="869.375" width="230" height="66.75" fill="#ffffc0"/>
+      <rect x="307" y="869.375" width="230" height="66.75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(312 883.75)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="6.8359375" y="31" textLength="206.32812">Hash Function</tspan>
+      </text>
+      <path d="M 623.8 876.25 L 879 876.25 L 815.2 929.25 L 560 929.25 Z" fill="#ffc0c0"/>
+      <path d="M 623.8 876.25 L 879 876.25 L 815.2 929.25 L 560 929.25 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(628.8 883.75)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="4.4109375" y="31" textLength="172.57812">3618550c…</tspan>
+      </text>
+      <line x1="268.5" y1="902.75" x2="293.6" y2="902.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="537.5" y1="902.75" x2="578.2175" y2="902.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="905.5" y1="423.12507" x2="1558.0907" y2="539.4021" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="521" y="640.5" width="180" height="82" fill="#c0ffff"/>
+      <rect x="521" y="640.5" width="180" height="82" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(526 643.5)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="1.4453125" y="31" textLength="176">Asymmetric </tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="37.867188" y="69" textLength="94.26562">Cipher</tspan>
+      </text>
+      <rect x="521" y="722.5" width="180" height="35" fill="#c0ffff"/>
+      <rect x="521" y="722.5" width="180" height="35" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(526 721)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="0" y="31" textLength="21.34375">E</tspan>
+      </text>
+      <rect x="521" y="757.5" width="180" height="35" fill="#c0ffff"/>
+      <rect x="521" y="757.5" width="180" height="35" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(526 756)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="0" y="31" textLength="23.109375">D</tspan>
+      </text>
+      <line x1="1527.7882" y1="577.38796" x2="714.3176" y2="669.7671" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 948.3 704 L 1203.5 704 L 1139.7 757 L 884.5 757 Z" fill="#ffc0ff"/>
+      <path d="M 948.3 704 L 1203.5 704 L 1139.7 757 L 884.5 757 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(953.3 711.5)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="31.996875" y="31" textLength="117.40625">plain sig</tspan>
+      </text>
+      <rect x="929" y="876.25" width="230" height="66.75" fill="#ffffc0"/>
+      <rect x="929" y="876.25" width="230" height="66.75" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(934 890.625)" fill="black">
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="33.515625" y="31" textLength="94.26562">PSS V</tspan>
+        <tspan font-family="Helvetica" font-size="32" font-weight="500" x="126.03125" y="31" textLength="60.453125">erify</tspan>
+      </text>
+      <line x1="844.6897" y1="905.4023" x2="915.6029" y2="906.9047" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1044" y1="757.5" x2="1044" y2="862.85" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(1612 881.25)" fill="black">
+        <tspan font-family="Helvetica" font-size="36" font-weight="500" x=".4785156" y="35" textLength="148.04297">Pass/Fail</tspan>
+      </text>
+      <line x1="1159.5" y1="908.3891" x2="1594.1007" y2="903.7387" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 358.89302 698 C 388.9869 710.3466 427.05695 723.9292 466.66667 732.8571 C 481.2883 736.1528 494.99326 738.5603 507.68935 740.2821" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="701.5" y1="691.7413" x2="918.1913" y2="716.263" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <text transform="translate(78 106)" fill="black">
+        <tspan font-family="Helvetica" font-size="36" font-weight="500" x=".46875" y="35" textLength="104.0625">Signer</tspan>
+      </text>
+      <text transform="translate(78 567)" fill="black">
+        <tspan font-family="Helvetica" font-size="36" font-weight="500" x=".46972656" y="35" textLength="24.01172">V</tspan>
+        <tspan font-family="Helvetica" font-size="36" font-weight="500" x="22.512695" y="35" textLength="58.00781">erifi</tspan>
+        <tspan font-family="Helvetica" font-size="36" font-weight="500" x="80.52051" y="35" textLength="32.009766">er</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

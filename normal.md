@@ -1,5 +1,18 @@
 # Normal TLS
 
+## Revamp
+
+- Symmetric and Asymmetric encryption
+  how symmetric encryption works
+  how asymmetric works, roughtly
+- Very basics of RSA
+  Illustration? with layers is ok to show as well
+  [Signature](signature.svg)
+- What does it mean to sign
+  Animation: document
+- What a certificate is: some data that is signed
+- Self signed certificates
+
 ## Introduction
 
 - Before getting into IoT security, let's take a little time to cover

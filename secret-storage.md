@@ -1,9 +1,8 @@
 # Secret storage from threat modeling
 
-Threat modeling has shown us a common vulnerability are the secrets
-(private keys, shared secrets) used to communicate with the outside.
-If these are in readily accessible memory on the system, many exploits
-can make these accessible.
+- Been doing threat modeling
+- Common theme is the storage of secrets
+- Today I want to talk about these secrets.
 
 - [Normal](normal.md)
 - [PSK](psk.md)
