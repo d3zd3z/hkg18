@@ -43,7 +43,7 @@
   The certificate they issue me has some information in it:
 
       $ openssl x509 -in davidb.org-cert.pem -inform PEM -noout -text
-    
+
         Signature Algorithm: sha256WithRSAEncryption
             Issuer: C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3
             Validity
@@ -133,7 +133,7 @@ protected in this scenario.
     certificate signed by any of the CAs, a single rogue CA can make
     certificates for arbitrary sites.  Classically, this happened with
     a compromised CA that created a cert for *.google.com.
-    
+
     Several solutions.  This specific CA (*.google.com) is blacklisted
     by browsers.  We also have the CAA policy where sites can
     advertise, out of band (through DNS) which CAs are authorized to
