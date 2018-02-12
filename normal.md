@@ -7,7 +7,7 @@
   how asymmetric works, roughtly
 - Very basics of RSA
   Illustration? with layers is ok to show as well
-  [Signature](signature.svg)
+  ![Signature](signature.svg)
 - What does it mean to sign
   Animation: document
 - What a certificate is: some data that is signed
