@@ -7,9 +7,11 @@
   how asymmetric works, roughtly
 - Very basics of RSA
   Illustration? with layers is ok to show as well
-  ![Signature](signature.svg)
 - What does it mean to sign
   Animation: document
+  ![Signature](signature.svg)
+  (note that TLS 1.2 doesn't mandate RSA/PSS, and most use PKCS#1
+  which is similar but doesn't have a security proof behind it).
 - What a certificate is: some data that is signed
 - Self signed certificates
 
@@ -40,20 +42,20 @@
 
   The certificate they issue me has some information in it:
 
-  $ openssl x509 -in davidb.org-cert.pem -inform PEM -noout -text
-
-    Signature Algorithm: sha256WithRSAEncryption
-        Issuer: C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3
-        Validity
-            Not Before: Jan 16 23:22:39 2018 GMT
-            Not After : Apr 16 23:22:39 2018 GMT
-        Subject: CN=davidb.org
-        Subject Public Key Info:
-	   RSA public info
-        X509v3 extensions:
-	    ...
-            X509v3 Subject Alternative Name:
-                DNS:davidb.ninja, DNS:davidb.org, DNS:fossil.davidb.org, DNS:www.davidb.ninja, DNS:www.davidb.org
+      $ openssl x509 -in davidb.org-cert.pem -inform PEM -noout -text
+    
+        Signature Algorithm: sha256WithRSAEncryption
+            Issuer: C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3
+            Validity
+                Not Before: Jan 16 23:22:39 2018 GMT
+                Not After : Apr 16 23:22:39 2018 GMT
+            Subject: CN=davidb.org
+            Subject Public Key Info:
+    	   RSA public info
+            X509v3 extensions:
+    	    ...
+                X509v3 Subject Alternative Name:
+                    DNS:davidb.ninja, DNS:davidb.org, DNS:fossil.davidb.org, DNS:www.davidb.ninja, DNS:www.davidb.org
 
   For us, the important things here are, the validity, which tells us
   when this cert is valid. The Subject as well as the Subject
