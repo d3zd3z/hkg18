@@ -5,7 +5,7 @@ authentication, often in IoT, the overhead proves to be too much, and
 systems settle for something more simple, known as pre shared keys.
 
 In this scenario, in order for the client and server to communicate,
-they must communicate with a secret key that is know to both of them.
+they must communicate with a secret key that is known to both of them.
 It is important that these protocols are designed such that either
 successful or faulty authentication will not reveal anything about the
 key.  There are also issues with offline attacks being done on the

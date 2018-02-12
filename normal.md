@@ -4,7 +4,7 @@
 
 - Symmetric and Asymmetric encryption
   how symmetric encryption works
-  how asymmetric works, roughtly
+  how asymmetric works, roughly
 - Very basics of RSA
   Illustration? with layers is ok to show as well
 - What does it mean to sign
@@ -30,7 +30,7 @@
 - What are certificates
 
 - In order for this to work, we need to have what are known as CAs
-  (certificate authorities).  These are entities that we as users of
+  (Certificate Authorities).  These are entities that we as users of
   the web trust (or at least have to trust) to authenticate the sites
   that we visit.
 
@@ -38,7 +38,7 @@
   these.  Firefox includes 162.
 
 - Let's say I want to have TLS work with davidb.org.  I use
-  letsencrypt, and through a process where I convince them that I can
+  Let's Encrypt, and through a process where I convince them that I can
   control davidb.org, they issue me a certificate for this domain.
 
   The certificate they issue me has some information in it:
@@ -81,13 +81,13 @@
   There are several things that happen with a TLS connection.  Part of
   this is about negotiating what versions of the protocol they two
   parties will use, and specifically, they negotiate a specific
-  cyphersuite.  In my case, it is ECDHE-RSA-AES128-GCM-SHA256, which
+  ciphersuite.  In my case, it is ECDHE-RSA-AES128-GCM-SHA256, which
   tells us a bunch of things:
 
-    - ECDHE is the key exchange algorithm (Elliptic curve
+    - ECDHE is the key exchange algorithm (Elliptic Curve
       Diffie-Hellman Ephemeral).  This algorithm allows both sides
       of the protocol to agree on a session key without an observer
-      being able to tell what that is.  To prevent party-in-the-middle
+      being able to tell what that is.  To prevent party-in-the-middle {{{JOCKE: man-in-the-middle?}}}
       attacks, the communication will be signed with the RSA key
       associated with the given certificate.
 
@@ -114,6 +114,15 @@
       managing client certificates has shown to be overly complicated
       for a majority of web uses.  There are specialized applications
       where this is indeed done.
+{{{JOCKE: This section is all good, but for TSC I believe it is too much
+	information. I would recommend something like this:
+		- TSC: Keep it very short, give a high level overview. Keep the
+		  amount of information in TSC slids to a minimum.
+		- Connect: Here you can use more information, split it up on a
+		  couple of different slides.
+		- Pure documentation, explanation (like on GitHub), you can keep
+		  it all.
+}}}
 
 ## Big picture
 
@@ -134,17 +143,26 @@ protected in this scenario.
     certificate signed by any of the CAs, a single rogue CA can make
     certificates for arbitrary sites.  Classically, this happened with
     a compromised CA that created a cert for *.google.com.
+{{{JOCKE: Comodo is another example:
+https://arstechnica.com/information-technology/2011/03/how-the-comodo-certificate-fraud-calls-ca-trust-into-question/2/
+}}}
 
     Several solutions.  This specific CA (*.google.com) is blacklisted
     by browsers.  We also have the CAA policy where sites can
     advertise, out of band (through DNS) which CAs are authorized to
     sign for those domains.  Browser are also starting to bake this
     information in for high profile sites.
+{{{JOCKE: Worth mention the OCSP protocol?}}}
 
   - Will the user notice if the padlock icon isn't present?  Browser
     are getting better about refusing to show insecure webpages.
 
   - TLS is complex, there are likely still bugs in the implementation.
+{{{JOCKE: Even though this might be true, I think we should consider that they
+	are secure until proven to be broken. Of course there are lots of
+	different implementations and some have been subjected to more
+	scrutiny than others.
+}}}
 
   - Ciphersuite negotiation can result in a weak cipher suite.  Again,
     the browser are getting better at just refusing to work with sites
@@ -161,6 +179,9 @@ protected in this scenario.
     the flash space available on many IoT devices.  Even large devices
     (with say 1MB of flash) would have a hard time justifying this
     much space to the root CA list.
+{{{JOCKE: This is really important information, i.e., there simply isn't room
+for an endless amount of certs on many MCU's.
+}}}
 
     This list could certainly be pruned for the IoT device, to just
     the CAs that are expected to be used by the service.

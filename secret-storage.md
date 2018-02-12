@@ -14,8 +14,8 @@
 - Generally, some key has to be installed in the device at
   provisioning time.
 - This "network key" can result in more of a class break, as devices
-  could pretent to be real network devices.
-- An vulnerability anywhere in the code that can allow reads from
+  could pretend to be real network devices.
+- A vulnerability anywhere in the code that can allow reads from
   memory can reveal these keys to an attacker.  May even happen over a
   network interface.
 
@@ -29,8 +29,8 @@
 
 ### TrustZone(tm) for V8m
 
-- ARM's solution for V8m CPUs
-- Allows a trusted environment to separate secret stuff
+- Arm's solution for V8m CPUs
+- Allows a trusted environment to separate secret data
 - But, only available on V8m cores
 
 ### Privilege Separation
