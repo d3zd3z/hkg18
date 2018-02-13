@@ -13,6 +13,7 @@
   (note that TLS 1.2 doesn't mandate RSA/PSS, and most use PKCS#1
   which is similar but doesn't have a security proof behind it).
 - What a certificate is: some data that is signed
+  ![Certs](certs.svg)
 - Self signed certificates
 
 ## Introduction
