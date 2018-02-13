@@ -87,7 +87,7 @@
     - ECDHE is the key exchange algorithm (Elliptic Curve
       Diffie-Hellman Ephemeral).  This algorithm allows both sides
       of the protocol to agree on a session key without an observer
-      being able to tell what that is.  To prevent party-in-the-middle {{{JOCKE: man-in-the-middle?}}}
+      being able to tell what that is.  To prevent man-in-the-middle
       attacks, the communication will be signed with the RSA key
       associated with the given certificate.
 
@@ -114,15 +114,6 @@
       managing client certificates has shown to be overly complicated
       for a majority of web uses.  There are specialized applications
       where this is indeed done.
-{{{JOCKE: This section is all good, but for TSC I believe it is too much
-	information. I would recommend something like this:
-		- TSC: Keep it very short, give a high level overview. Keep the
-		  amount of information in TSC slids to a minimum.
-		- Connect: Here you can use more information, split it up on a
-		  couple of different slides.
-		- Pure documentation, explanation (like on GitHub), you can keep
-		  it all.
-}}}
 
 ## Big picture
 
@@ -142,9 +133,10 @@ protected in this scenario.
   - Must trust the CAs, all of them.  Since the browsers will trust a
     certificate signed by any of the CAs, a single rogue CA can make
     certificates for arbitrary sites.  Classically, this happened with
-    a compromised CA that created a cert for *.google.com.
-{{{JOCKE: Comodo is another example:
-https://arstechnica.com/information-technology/2011/03/how-the-comodo-certificate-fraud-calls-ca-trust-into-question/2/
+    a compromised CA that created a cert for *.google.com.  or with
+    [Comodo][comodo] where a CA was hacked.
+
+[comodo]: https://arstechnica.com/information-technology/2011/03/how-the-comodo-certificate-fraud-calls-ca-trust-into-question/2/
 }}}
 
     Several solutions.  This specific CA (*.google.com) is blacklisted
@@ -152,17 +144,13 @@ https://arstechnica.com/information-technology/2011/03/how-the-comodo-certificat
     advertise, out of band (through DNS) which CAs are authorized to
     sign for those domains.  Browser are also starting to bake this
     information in for high profile sites.
-{{{JOCKE: Worth mention the OCSP protocol?}}}
+
+    Some browsers implement OCSP, which is a protocol to query a
+    trusted server to check if a certificate is valid.  As of now, all
+    browser except Chrome implement and use OCSP.
 
   - Will the user notice if the padlock icon isn't present?  Browser
     are getting better about refusing to show insecure webpages.
-
-  - TLS is complex, there are likely still bugs in the implementation.
-{{{JOCKE: Even though this might be true, I think we should consider that they
-	are secure until proven to be broken. Of course there are lots of
-	different implementations and some have been subjected to more
-	scrutiny than others.
-}}}
 
   - Ciphersuite negotiation can result in a weak cipher suite.  Again,
     the browser are getting better at just refusing to work with sites
@@ -179,9 +167,6 @@ https://arstechnica.com/information-technology/2011/03/how-the-comodo-certificat
     the flash space available on many IoT devices.  Even large devices
     (with say 1MB of flash) would have a hard time justifying this
     much space to the root CA list.
-{{{JOCKE: This is really important information, i.e., there simply isn't room
-for an endless amount of certs on many MCU's.
-}}}
 
     This list could certainly be pruned for the IoT device, to just
     the CAs that are expected to be used by the service.
