@@ -91,6 +91,18 @@
   (we shouldn't allow insecure ciphers, only use the latest TLS, and a
   lot is going to be common).
 
+  Oh, and it isn't really quite that simple.
+
+  - TLS allows for renegotiation.  Maybe this isn't needed to IoT
+    usage, but it is part of the spec.
+
+  - TLS/DTLS provide something known as session resumption.  Through
+    storing some secret state about a particular communication
+    channel, it can be reestablished later (between the same two
+    parties) with less communication and computational effort.  Given
+    the CPU constraints of IoT, session resumption is likely to be
+    quite important.
+
 - Bigger problems
 
   - This model of certificate validation doesn't usually work very
@@ -105,7 +117,7 @@
 
     - The default TLS record size is 16KB.  This can be smaller, but
       this is an optional TLS extension.  By default, the client will
-      need just 32KB of RAM for buffers of TLS delay.
+      need just 32KB of RAM for buffers of TLS data.
 
     - This is all based on use over TCP.  Many IoT protocols are more
       suited to UDP.  The DTLS spec describes the protocol, but
@@ -191,11 +203,14 @@
   There is a strong argument that we shouldn't be doing any of this.
 
   People shouldn't be writing applications that communicate directly
-  over TLS.  There is a lot of work going into LWM2M, MQTT, Thread,
-  etc to make the protocols secure, and handle the multitude of
-  management issues.  Individuals that write applications directly
-  with TLS will almost certainly get it wrong, resulting in only an
-  illusion of security.
+  over TLS.  Although just connecting and authenticating is
+  complicated, management of secrets (private keys) is also
+  complicated.
+
+  There is a lot of work going into LWM2M, MQTT, Thread, etc to make
+  the protocols secure, and handle the multitude of management issues.
+  Individuals that write applications directly with TLS will almost
+  certainly get it wrong, resulting in only an illusion of security.
 
   My suggestion is that we work to get LWM2M, COAPS, Thread, MQTT, and
   possibly others to use security best practices, likely directly

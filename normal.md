@@ -18,6 +18,10 @@
 
 ## Introduction
 
+- When people think of secure communication, they usually think of
+  TLS.  It isn't the only game in town (SSH being a commonly used
+  protocol as well), but is intended to be general.
+
 - Before getting into IoT security, let's take a little time to cover
   how regular SSL/TLS works.
 
