@@ -205,7 +205,7 @@
   People shouldn't be writing applications that communicate directly
   over TLS.  Although just connecting and authenticating is
   complicated, management of secrets (private keys) is also
-  complicated.
+  complicated, and very easy to get wrong.
 
   There is a lot of work going into LWM2M, MQTT, Thread, etc to make
   the protocols secure, and handle the multitude of management issues.
